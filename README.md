@@ -14,19 +14,19 @@ https://serafimevitor.app.n8n.cloud/workflow/eRU1mbneDJaPmFl7/debug/88)(image_dc
 
 ---
 
-## ⚙️ Arquitetura e Componentes
+## Arquitetura e Componentes
 
-Este fluxo demonstra o poder do novo nó `AI Agent` do n8n, que funciona como um orquestrador central (um "cérebro").
+Este fluxo demonstra o nó `AI Agent` do n8n, que funciona como um orquestrador central.
 
 1.  **Gatilho (Trigger): `Telegram Trigger`**
     * Recebe mensagens de usuários em um bot do Telegram.
 
 2.  **Cérebro (Brain): `AI Agent`**
     * É o nó central que recebe a mensagem do usuário.
-    * Ele decide, com base na inteligência do Gemini, se deve apenas responder ou se precisa usar uma de suas "ferramentas".
+    * Ele decide, com base no Gemini, se deve apenas responder ou se precisa usar uma de suas "ferramentas".
 
 3.  **Inteligência (Model): `Google Gemini Chat`**
-    * Conectado ao `AI Agent` como o modelo de chat (Chat Model).
+    * Conectado ao `AI Agent` como o modelo de chat.
     * É o motor de IA que fornece a capacidade de raciocínio, entendimento e geração de respostas.
 
 4.  **Memória (Memory): `Simple Memory`**
@@ -34,8 +34,8 @@ Este fluxo demonstra o poder do novo nó `AI Agent` do n8n, que funciona como um
 
 5.  **Ferramentas (Tools):**
     * São as ações que o agente pode decidir executar para responder a uma pergunta.
-    * **`Get many events in Google Calendar`**: Permite que o agente verifique a agenda. (Ex: "Eu tenho alguma reunião hoje?").
-    * **`Send a message in Gmail`**: Permite que o agente envie e-mails. (Ex: "Envie um e-mail para o cliente X dizendo que vou me atrasar").
+    * **`Get many events in Google Calendar`**: Permite que o agente verifique a agenda. (Prompt: "Eu tenho alguma reunião hoje?").
+    * **`Send a message in Gmail`**: Permite que o agente envie e-mails. (Prompt: "Envie um e-mail contendo todas as minhas reuniões da agenda").
 
 6.  **Saída (Output): `Send a text message`**
     * Envia a resposta final (gerada pelo agente) de volta para o usuário no Telegram.

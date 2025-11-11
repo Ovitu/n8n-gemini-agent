@@ -1,10 +1,10 @@
 # 🤖 Agente de IA com n8n, Gemini e Ferramentas Google
 
-Este projeto é um assistente de IA pessoal construído na plataforma de automação n8n. Ele usa um gatilho do Telegram para receber mensagens, processa essas mensagens usando um **Agente de IA** (AI Agent) avançado, e utiliza o **Google Gemini** como seu cérebro (modelo de chat).
+Este projeto é um assistente de IA pessoal construído na plataforma de automação n8n. Ele usa um gatilho do Telegram para receber mensagens, processa essas mensagens usando um **Agente de IA** (AI Agent), e utiliza o **Gemini** como seu cérebro.
 
 O agente é capaz de manter conversas, lembrar do histórico e usar ferramentas do Google (Gmail e Calendar) para executar tarefas no mundo real.
 
-*(Nota: Embora o nome na imagem seja "Agente de WhatsApp", o gatilho usado neste fluxo é o `Telegram Trigger`. A lógica pode ser facilmente adaptada para o WhatsApp.)*
+
 
 ## 🖼️ Visualização do Fluxo
 

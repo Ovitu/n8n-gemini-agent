@@ -45,21 +45,12 @@ Este fluxo demonstra o nó `AI Agent` do n8n, que funciona como um orquestrador 
 6.  **Saída (Output): `Send a text message`**
     * Envia a resposta final (gerada pelo agente) de volta para o usuário no Telegram.
 
----
-
-## 🛠️ Como Usar (Setup)
-
-Para usar este fluxo de trabalho no seu próprio n8n:
-
-1.  **Baixe o `workflow.json`** deste repositório.
-2.  No seu n8n, vá em "Import" > "From File" e selecione o arquivo.
-3.  **Configure as Credenciais.** Este fluxo não funcionará sem as credenciais corretas.
 
 ---
 
-## 🔑 Credenciais Necessárias
+## Credenciais Usadas
 
-Você precisará criar e adicionar as seguintes credenciais no seu n8n para que os nós funcionem:
+São necessárias as seguintes credenciais no seu n8n para que os nós funcionem:
 
 * **Telegram:** `Telegram Bot Token` (do BotFather)
 * **Google Gemini Chat:** `Google Gemini API Key` (do Google AI Studio)

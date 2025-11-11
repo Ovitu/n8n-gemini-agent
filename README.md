@@ -11,9 +11,9 @@ A arquitetura do fluxo em si é simples, devido à natureza intuitiva do n8n. O 
 
 
 
-## 🖼️ Visualização do Fluxo
+## Visualização do Fluxo
 
-https://serafimevitor.app.n8n.cloud/workflow/eRU1mbneDJaPmFl7/debug/88)(image_dc8dd5.png
+
 <img width="765" height="391" alt="image" src="https://github.com/user-attachments/assets/eef94e9d-8f93-4844-9a86-e0fb57085034" />
 
 

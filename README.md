@@ -8,7 +8,7 @@ O agente é capaz de manter conversas, lembrar do histórico e usar ferramentas 
 
 ## 🖼️ Visualização do Fluxo
 
-![Visualização do Workflow](image_dc8dd5.png)
+!(https://serafimevitor.app.n8n.cloud/workflow/eRU1mbneDJaPmFl7/debug/88)(image_dc8dd5.png)
 *(Dica: Faça o upload da imagem do seu workflow para o repositório e mude o nome aqui para que ela apareça)*
 
 ---

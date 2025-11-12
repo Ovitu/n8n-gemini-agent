@@ -1,4 +1,4 @@
-# 🤖 Agente de IA com n8n, Gemini e Ferramentas Google
+#  Agente de IA com n8n, Gemini e Ferramentas Google
 
 
 Este projeto é um assistente de IA pessoal simples, construído na plataforma de automação n8n. Ele usa um gatilho do Telegram para receber mensagens, processa essas mensagens usando um **Agente de IA** (AI Agent), e utiliza o **Gemini** como seu cérebro.
